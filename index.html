@@ -7,27 +7,31 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Calculator</h1>
-
     <div class="calculator">
-        <div class="calculator-content">
-            <div class="display"></div>
-            <div class="buttons">
-                <button id="clear">C</button>
-                <button id="1">1</button>
-                <button id="2">2</button>
-                <button id="3">3</button>
-                <button id="4">4</button>
-                <button id="5">5</button>
-                <button id="6">6</button>
-                <button id="7">7</button>
-                <button id="8">8</button>
-                <button id="9">9</button>
-                <button id="0">0</button>
-                <button id="equal">=</button>
-            </div>
+        <div class="inner-container">
+          <div class="display">
+            <div class="calculation">0</div>
+          </div>
+          <div class="buttons">
+            <div class="btn clear" id="clear">C</div>
+            <div class="btn operation" id="divide">%</div>
+            <div class="btn num" id="7">7</div>
+            <div class="btn num" id="8">8</div>
+            <div class="btn num" id="9">9</div>
+            <div class="btn operation" id="multiply">*</div>
+            <div class="btn num" id="4">4</div>
+            <div class="btn num" id="5">5</div>
+            <div class="btn num" id="6">6</div>
+            <div class="btn operation" id="subtract">-</div>
+            <div class="btn num" id="1">1</div>
+            <div class="btn num" id="2">2</div>
+            <div class="btn num" id="3">3</div>
+            <div class="btn operation" id="add">+</div>
+            <div class="btn num zero" id="0">0</div>
+            <div class="btn equal">=</div>
+          </div>
         </div>
-    </div>
+      </div>
     <script src="app.js"></script>
 </body>
 </html>
